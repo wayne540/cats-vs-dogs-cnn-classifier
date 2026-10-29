@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Virtual environments
+venv/
+.venv/
+
+# Dataset
+PetImages.zip
+PetImages_data/
+PetImages/
+
+# Trained models
+*.keras
+*.h5
+saved_model/
+
+# Environment variables
+.env
+
+# Operating system files
+.DS_Store
+Thumbs.db
