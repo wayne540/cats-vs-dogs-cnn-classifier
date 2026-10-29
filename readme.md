@@ -86,14 +86,21 @@ The main objectives of this project are to:
 
 ## Dataset
 
-The project uses a Cats vs Dogs image dataset containing two categories:
+This project uses the Microsoft Cats vs Dogs image dataset for binary image classification.
 
-* **Cat:** Images labelled `0`.
-* **Dog:** Images labelled `1`.
+**Download:** [Microsoft Cats vs Dogs Dataset](https://www.microsoft.com/en-us/download/details.aspx?id=54765&msockid=04d2e6ff2dbe6ac11da3f0b82c1e6b9b&utm_source=chatgpt.com)
 
-The dataset contains images with varying visual characteristics, including different backgrounds, lighting conditions, poses, and image dimensions.
+The dataset is provided as a ZIP archive containing images organized into `Cat` and `Dog` directories.
 
-The images must be organized or indexed so that each image has the correct corresponding label.
+### Setup
+
+1. Download the dataset from the official Microsoft page.
+2. Extract the ZIP archive.
+3. Update the dataset path in the notebook if necessary.
+4. Run the preprocessing cells to validate the images and prepare the training, validation, and test datasets.
+
+**Note:** The archive is approximately 787 MB. Some images may be corrupted and should be checked before training.
+
 
 ### Dataset preparation
 
